@@ -130,11 +130,13 @@ main {
 }
 
 aside {
+	background: #3cb371;
 	/* Altura do elemento. */
 	height: 100px;
 }
 
 footer {
+	background: #ff0000;
 	/* Altura do elemento. */
 	height: 100px;
 }
