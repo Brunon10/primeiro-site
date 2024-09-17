@@ -127,7 +127,7 @@ main {
 	background-color:
 	linear-gradient(to bottow, transparent 0%, #000e 50%),
 		linear-gradient(to right, #f00c 50%, #00fc 100%),
-		url(https://unsp1ash.it/100/100);
+		url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.vecteezy.com%2Farte-vetorial%2F16939143-fundo-azul-escuro-abstrato-com-barras-de-gradiente&psig=AOvVaw1CGq1L3Uhc_45t5KyX5Bwq&ust=1726703082593000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDkuLaUy4gDFQAAAAAdAAAAABAE/100/100);
 	height: calc(100vh - 436px);
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
