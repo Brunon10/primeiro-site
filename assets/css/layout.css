@@ -123,6 +123,7 @@ nav a {
 }
 
 main {
+	background: #fffaf0
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
