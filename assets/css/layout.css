@@ -72,7 +72,7 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background-color: ##000080;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
