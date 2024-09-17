@@ -124,7 +124,11 @@ nav a {
 }
 
 main {
-	background-color: #483D8B;
+	background-color:
+	linear-gradient(to bottow, transparent 0%, #000e 50%),
+		linear-gradient(to right, #f00c 50%, #00fc 100%),
+		url(https://unsp1ash.it/100/100);
+	height: calc(100vh - 436px);
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
