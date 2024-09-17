@@ -105,6 +105,7 @@ header #logo {
 }
 
 nav {
+	background: #ffe4c4
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
