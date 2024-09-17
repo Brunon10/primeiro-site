@@ -105,7 +105,7 @@ header #logo {
 }
 
 nav {
-	background: #ffe4c4;
+	background: #66cdaa;
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
@@ -123,7 +123,7 @@ nav a {
 }
 
 main {
-	background: #fffaf0;
+	background: #4682b4;
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
