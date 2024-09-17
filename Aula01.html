@@ -1,66 +1,58 @@
+
+<!-- Indica que o documento é um arquivo HTML. -->
 <!DOCTYPE html>
+
+<!-- Define a linguagem do conteúdo da página. -->
 <html lang="pt-br">
+
+<!-- Armazena informações sobre a página. -->
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPage</title>
+
+	<!-- Conjunto de caracteres que contém acentuação e ç. -->
+	<meta charset="utf-8">
+
+	<!-- Configuração da janela de visualização ( responsividade ). -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Importação do arquivo CSS. -->
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+
+	<!-- Título da aba do navegador -->
+	<title>Layout</title>
 </head>
+
+<!-- Conteúdo apresentado na tela. -->
 <body>
-    <h1>Titulo 01</h1>
-    <h2>Titulo 02</h2>
-    <h3>Titulo 03</h3>
-    <h4>Titulo 04</h4>
-    <h5>Titulo 05</h5>
-    <h6>Titulo 06</h6>
-    <p><strong>Este é um exemplo</strong> de parágrafo.</p>
-    <img src="imagens/Logomarca.png">
-    <br>
-    
-    
-    <img src="imagens/Logomarca.png"
-    widht="735"
-    height="535"
-    <br>
 
-    <img src="imagens/Logomarca.png"
-    widht="735"
-    height="535"
-    alt="Logomarca">
-    <br>
+	<!-- Agrupa os elementos que compõe o cabeçalho. -->
+	<header>
+		<a href="./layout.html" id="logo">Logo</a>
 
-     <img src="imagens/Logomarca.png"
-    widht="735"
-    height="535"
-    alt="Logomarca"
-    title="Uma logomarca contendo um A bruscamente rabiscado na cor vinho">
-    <br>
+		<button id="openMenu">&#9776;</button>
+	</header>
 
-    <figure>
-    <img src="imagens/Logomarca.png"
-    widht="735"
-    height="535"
-    alt="Logomarca"
-    title="Uma logomarca contendo um A bruscamente rabiscado na cor vinho"
-    <figcaption> Arte very massa! </figcaption>
-    </figure>
-<a href='https://m.youtube.com/?hl=pt'>Clique neste trecho para acessar o </a>
+	<!-- Agrupa links de navegação no site. -->
+	<nav id="menu">
 
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+		<button id="closeMenu">X</button>
 
-<button type="button" class="btn btn-link">Link</button>
-    <ul class="list-group">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Products</a>
+		<a href="">Contact</a>
+	</nav>
+
+	<!-- Agrupa o conteúdo principal da página ou aplicação. -->
+	<main>Main</main>
+
+	<!-- Agrupa informações e links relacionado ao conteúdo principal. -->
+	<aside>Aside</aside>
+
+	<!-- Agrupa informações de autoria, direitos autorais, contato, 
+		   mapa do site, links e documento relacionados. -->
+	<footer>Footer</footer>
+
+	<!-- Importação do arquivo JavaScript. -->
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
  
